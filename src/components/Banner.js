@@ -15,7 +15,7 @@ export const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ 'Web Developer', 'Web Designer', "UI/UX Designer" ];
+    const toRotate = [ 'Web App Developer', 'Web Developer', "Freelancer" ];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -60,7 +60,7 @@ export const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? 'animate__animated animated__fadeIn' : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`Hi I'm Brandon `}<span className="wrap">{text}</span></h1>
+                                    <h1>{`Hi I'm Brandon a `}<span className="wrap">{text}</span></h1>
                                     <p>I'm a freelance Web Developer who specializes in creating beautiful and minimalistic websites.</p>
                                     <p>Currently I'm focused on expanding my knowledge through personal projects and online courses.</p>
                                     <HashLink to="#connect" style={{ textDecoration: 'none' }}>
