@@ -12,7 +12,7 @@ export const Projects = () => {
       title: "Admin Dashboard",
       description: "Mock Admin Dashboard",
       imgUrl: adminDashboard,
-      UrlLink: "https://google.com"
+      UrlLink: "https://brandon-admin-dashboard.netlify.app/"
     },
     
   ];
