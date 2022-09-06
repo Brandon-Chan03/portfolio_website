@@ -468,8 +468,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project-link a:hover {
-    color:#4A2FBD
+    color:lightgray
 }
+
 .background-image-right {
   top: 20%;
   position: absolute;
