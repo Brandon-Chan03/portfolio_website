@@ -15,9 +15,9 @@ export const Footer = () => {
                 </Col>
                 <Col sm={6} className="text-center text-sm-end">
                     <div classname="social-icon">
-                        <a href="https://www.linkedin.com/in/brandon-chan03/"><img src={navIcon1} alt=""></img></a>
-                        <a href="https://github.com/Brandon-Chan03"><img src={navIcon2} alt=""></img></a>
-                        <a href="https://www.instagram.com/brandon.chan03/"><img src={navIcon3} alt=""></img></a>
+                        <a href="https://www.linkedin.com/in/brandon-chan03/"><img src={navIcon1} alt="" /></a>
+                        <a href="https://github.com/Brandon-Chan03"><img src={navIcon2} alt=""/ ></a>
+                        <a href="https://www.instagram.com/brandon.chan03/"><img src={navIcon3} alt=""/ ></a>
                     </div>
                     <p>CopyRight 2022. All Rights Reserved by Brandon Chan</p>
                 </Col>

@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import adminDashboard from "../assets/img/admindashboard.png";
+import youtubeClone from '../assets/img/youtube1.png';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,6 +15,12 @@ export const Projects = () => {
       imgUrl: adminDashboard,
       UrlLink: "https://brandon-admin-dashboard.netlify.app/"
     },
+    {
+        title: "Youtube Clone",
+        description: "A front end clone of youtube",
+        imgUrl: youtubeClone,
+        UrlLink: "https://brandon-youtube-clone.netlify.app/"
+    }
     
   ];
 
